@@ -134,8 +134,8 @@ body {
 }
 
 
-/* ===== About Section Styling (بعد التعديل) ===== */
-.about-wrapper {
+/*-------------About----------- */
+.about-me {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -205,7 +205,7 @@ body {
   font-weight: 500;
 }
 
-/* ===== Projects Section ===== */
+/* ----------- Projects ---------- */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -260,7 +260,7 @@ body {
   background: rgb(74, 144, 226);
 }
 
-/* ===== Contact Section ===== */
+/* -----------Contact Section-------------- */
 .contact-item {
   font-size: 1rem;
   color: rgb(0, 0, 0);
@@ -280,7 +280,7 @@ body {
   color: rgb(126, 214, 165);
 }
 
-/* ===== Footer ===== */
+/*---------- Footer------------*/
 .footer {
   background: rgb(255, 255, 255);
   text-align: center;
@@ -307,7 +307,7 @@ body {
     display: none;
   }
 
-  .hero-heading {
+  .header-heading {
     font-size: 2rem;
   }
 
@@ -324,19 +324,18 @@ body {
     height: 50px;
   }
 
-  /* تعديل الـ About للموبايل */
   .about-wrapper {
     flex-direction: column;
     text-align: center;
   }
 
   .about-text {
-    text-align: center;
+    text-align: left;
     align-items: center;
   }
 
   .about-img {
-    text-align: center;
+    text-align:right;
   }
 
   .about-text .btn {
